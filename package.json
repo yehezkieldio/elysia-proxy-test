@@ -1,0 +1,16 @@
+{
+  "name": "elysia-proxy-test",
+  "type": "module",
+  "scripts": {
+    "start": "bun run main.ts",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/bun": "1",
+    "typescript": "5"
+  },
+  "dependencies": {
+    "elysia": "1"
+  }
+}
